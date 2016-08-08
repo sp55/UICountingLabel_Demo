@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84095EEA1D58269B00CA6EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84095EE91D58269B00CA6EBC /* main.m */; };
+		84095EED1D58269B00CA6EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84095EEC1D58269B00CA6EBC /* AppDelegate.m */; };
+		84095EF01D58269B00CA6EBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84095EEF1D58269B00CA6EBC /* ViewController.m */; };
+		84095EF31D58269B00CA6EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84095EF11D58269B00CA6EBC /* Main.storyboard */; };
+		84095EF51D58269B00CA6EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84095EF41D58269B00CA6EBC /* Assets.xcassets */; };
+		84095EF81D58269B00CA6EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84095EF61D58269B00CA6EBC /* LaunchScreen.storyboard */; };
+		84095F031D58269B00CA6EBC /* UICountingLabel_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84095F021D58269B00CA6EBC /* UICountingLabel_DemoTests.m */; };
+		84095F0E1D58269C00CA6EBC /* UICountingLabel_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84095F0D1D58269C00CA6EBC /* UICountingLabel_DemoUITests.m */; };
+		84095F1D1D5827BE00CA6EBC /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84095F1C1D5827BE00CA6EBC /* UICountingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84095EFF1D58269B00CA6EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84095EDD1D58269B00CA6EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84095EE41D58269B00CA6EBC;
+			remoteInfo = UICountingLabel_Demo;
+		};
+		84095F0A1D58269C00CA6EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84095EDD1D58269B00CA6EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84095EE41D58269B00CA6EBC;
+			remoteInfo = UICountingLabel_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84095EE51D58269B00CA6EBC /* UICountingLabel_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICountingLabel_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84095EE91D58269B00CA6EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84095EEB1D58269B00CA6EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84095EEC1D58269B00CA6EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84095EEE1D58269B00CA6EBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84095EEF1D58269B00CA6EBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84095EF21D58269B00CA6EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84095EF41D58269B00CA6EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84095EF71D58269B00CA6EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84095EF91D58269B00CA6EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84095EFE1D58269B00CA6EBC /* UICountingLabel_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICountingLabel_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84095F021D58269B00CA6EBC /* UICountingLabel_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel_DemoTests.m; sourceTree = "<group>"; };
+		84095F041D58269C00CA6EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84095F091D58269C00CA6EBC /* UICountingLabel_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICountingLabel_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84095F0D1D58269C00CA6EBC /* UICountingLabel_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel_DemoUITests.m; sourceTree = "<group>"; };
+		84095F0F1D58269C00CA6EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84095F1B1D5827BE00CA6EBC /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		84095F1C1D5827BE00CA6EBC /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84095EE21D58269B00CA6EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095EFB1D58269B00CA6EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F061D58269C00CA6EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84095EDC1D58269B00CA6EBC = {
+			isa = PBXGroup;
+			children = (
+				84095EE71D58269B00CA6EBC /* UICountingLabel_Demo */,
+				84095F011D58269B00CA6EBC /* UICountingLabel_DemoTests */,
+				84095F0C1D58269C00CA6EBC /* UICountingLabel_DemoUITests */,
+				84095EE61D58269B00CA6EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84095EE61D58269B00CA6EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84095EE51D58269B00CA6EBC /* UICountingLabel_Demo.app */,
+				84095EFE1D58269B00CA6EBC /* UICountingLabel_DemoTests.xctest */,
+				84095F091D58269C00CA6EBC /* UICountingLabel_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84095EE71D58269B00CA6EBC /* UICountingLabel_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84095EEB1D58269B00CA6EBC /* AppDelegate.h */,
+				84095EEC1D58269B00CA6EBC /* AppDelegate.m */,
+				84095EEE1D58269B00CA6EBC /* ViewController.h */,
+				84095EEF1D58269B00CA6EBC /* ViewController.m */,
+				84095F1B1D5827BE00CA6EBC /* UICountingLabel.h */,
+				84095F1C1D5827BE00CA6EBC /* UICountingLabel.m */,
+				84095EF11D58269B00CA6EBC /* Main.storyboard */,
+				84095EF41D58269B00CA6EBC /* Assets.xcassets */,
+				84095EF61D58269B00CA6EBC /* LaunchScreen.storyboard */,
+				84095EF91D58269B00CA6EBC /* Info.plist */,
+				84095EE81D58269B00CA6EBC /* Supporting Files */,
+			);
+			path = UICountingLabel_Demo;
+			sourceTree = "<group>";
+		};
+		84095EE81D58269B00CA6EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84095EE91D58269B00CA6EBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84095F011D58269B00CA6EBC /* UICountingLabel_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84095F021D58269B00CA6EBC /* UICountingLabel_DemoTests.m */,
+				84095F041D58269C00CA6EBC /* Info.plist */,
+			);
+			path = UICountingLabel_DemoTests;
+			sourceTree = "<group>";
+		};
+		84095F0C1D58269C00CA6EBC /* UICountingLabel_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84095F0D1D58269C00CA6EBC /* UICountingLabel_DemoUITests.m */,
+				84095F0F1D58269C00CA6EBC /* Info.plist */,
+			);
+			path = UICountingLabel_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84095EE41D58269B00CA6EBC /* UICountingLabel_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84095F121D58269C00CA6EBC /* Build configuration list for PBXNativeTarget "UICountingLabel_Demo" */;
+			buildPhases = (
+				84095EE11D58269B00CA6EBC /* Sources */,
+				84095EE21D58269B00CA6EBC /* Frameworks */,
+				84095EE31D58269B00CA6EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICountingLabel_Demo;
+			productName = UICountingLabel_Demo;
+			productReference = 84095EE51D58269B00CA6EBC /* UICountingLabel_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84095EFD1D58269B00CA6EBC /* UICountingLabel_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84095F151D58269C00CA6EBC /* Build configuration list for PBXNativeTarget "UICountingLabel_DemoTests" */;
+			buildPhases = (
+				84095EFA1D58269B00CA6EBC /* Sources */,
+				84095EFB1D58269B00CA6EBC /* Frameworks */,
+				84095EFC1D58269B00CA6EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84095F001D58269B00CA6EBC /* PBXTargetDependency */,
+			);
+			name = UICountingLabel_DemoTests;
+			productName = UICountingLabel_DemoTests;
+			productReference = 84095EFE1D58269B00CA6EBC /* UICountingLabel_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84095F081D58269C00CA6EBC /* UICountingLabel_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84095F181D58269C00CA6EBC /* Build configuration list for PBXNativeTarget "UICountingLabel_DemoUITests" */;
+			buildPhases = (
+				84095F051D58269C00CA6EBC /* Sources */,
+				84095F061D58269C00CA6EBC /* Frameworks */,
+				84095F071D58269C00CA6EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84095F0B1D58269C00CA6EBC /* PBXTargetDependency */,
+			);
+			name = UICountingLabel_DemoUITests;
+			productName = UICountingLabel_DemoUITests;
+			productReference = 84095F091D58269C00CA6EBC /* UICountingLabel_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84095EDD1D58269B00CA6EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					84095EE41D58269B00CA6EBC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+					};
+					84095EFD1D58269B00CA6EBC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84095EE41D58269B00CA6EBC;
+					};
+					84095F081D58269C00CA6EBC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84095EE41D58269B00CA6EBC;
+					};
+				};
+			};
+			buildConfigurationList = 84095EE01D58269B00CA6EBC /* Build configuration list for PBXProject "UICountingLabel_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84095EDC1D58269B00CA6EBC;
+			productRefGroup = 84095EE61D58269B00CA6EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84095EE41D58269B00CA6EBC /* UICountingLabel_Demo */,
+				84095EFD1D58269B00CA6EBC /* UICountingLabel_DemoTests */,
+				84095F081D58269C00CA6EBC /* UICountingLabel_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84095EE31D58269B00CA6EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84095EF81D58269B00CA6EBC /* LaunchScreen.storyboard in Resources */,
+				84095EF51D58269B00CA6EBC /* Assets.xcassets in Resources */,
+				84095EF31D58269B00CA6EBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095EFC1D58269B00CA6EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F071D58269C00CA6EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84095EE11D58269B00CA6EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84095EF01D58269B00CA6EBC /* ViewController.m in Sources */,
+				84095F1D1D5827BE00CA6EBC /* UICountingLabel.m in Sources */,
+				84095EED1D58269B00CA6EBC /* AppDelegate.m in Sources */,
+				84095EEA1D58269B00CA6EBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095EFA1D58269B00CA6EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84095F031D58269B00CA6EBC /* UICountingLabel_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F051D58269C00CA6EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84095F0E1D58269C00CA6EBC /* UICountingLabel_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84095F001D58269B00CA6EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84095EE41D58269B00CA6EBC /* UICountingLabel_Demo */;
+			targetProxy = 84095EFF1D58269B00CA6EBC /* PBXContainerItemProxy */;
+		};
+		84095F0B1D58269C00CA6EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84095EE41D58269B00CA6EBC /* UICountingLabel_Demo */;
+			targetProxy = 84095F0A1D58269C00CA6EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84095EF11D58269B00CA6EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84095EF21D58269B00CA6EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84095EF61D58269B00CA6EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84095EF71D58269B00CA6EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84095F101D58269C00CA6EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84095F111D58269C00CA6EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84095F131D58269C00CA6EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UICountingLabel_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.UICountingLabel-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84095F141D58269C00CA6EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UICountingLabel_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.UICountingLabel-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84095F161D58269C00CA6EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UICountingLabel_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.UICountingLabel-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICountingLabel_Demo.app/UICountingLabel_Demo";
+			};
+			name = Debug;
+		};
+		84095F171D58269C00CA6EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UICountingLabel_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.UICountingLabel-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICountingLabel_Demo.app/UICountingLabel_Demo";
+			};
+			name = Release;
+		};
+		84095F191D58269C00CA6EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UICountingLabel_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.UICountingLabel-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UICountingLabel_Demo;
+			};
+			name = Debug;
+		};
+		84095F1A1D58269C00CA6EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UICountingLabel_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.UICountingLabel-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UICountingLabel_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84095EE01D58269B00CA6EBC /* Build configuration list for PBXProject "UICountingLabel_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F101D58269C00CA6EBC /* Debug */,
+				84095F111D58269C00CA6EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84095F121D58269C00CA6EBC /* Build configuration list for PBXNativeTarget "UICountingLabel_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F131D58269C00CA6EBC /* Debug */,
+				84095F141D58269C00CA6EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84095F151D58269C00CA6EBC /* Build configuration list for PBXNativeTarget "UICountingLabel_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F161D58269C00CA6EBC /* Debug */,
+				84095F171D58269C00CA6EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84095F181D58269C00CA6EBC /* Build configuration list for PBXNativeTarget "UICountingLabel_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F191D58269C00CA6EBC /* Debug */,
+				84095F1A1D58269C00CA6EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84095EDD1D58269B00CA6EBC /* Project object */;
+}
